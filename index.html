@@ -1,0 +1,20 @@
+<div id="contactFormContainer">
+    <div class="container-whatsapp-form">
+<h2>Formulir Kontak</h2>
+        <form id="contactForm">
+            <div class="form-group-whatsapp">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group-whatsapp">
+                <label for="message">Isi Pesan:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <div class="form-group-whatsapp">
+                <label for="whatsappNumber">Nomor WhatsApp (contoh: 08123xxxxxxx atau +628123xxxxxxx):</label>
+                <input type="tel" id="whatsappNumber" name="whatsappNumber" pattern="^(\+?\d{1,3}[- ]?)?\d{7,15}$" title="Mohon masukkan nomor WhatsApp yang valid. Bisa diawali 0 atau kode negara (+XX)." required>
+            </div>
+            <button type="submit">Kirim</button>
+        </form>
+    </div>
+</div>
