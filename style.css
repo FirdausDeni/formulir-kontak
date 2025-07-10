@@ -1,0 +1,78 @@
+#contactFormContainer {
+    font-family: Arial, sans-serif; /*Jenis font untuk formulir kontak*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#contactFormContainer .container-whatsapp-form {
+    background-color: #fff; /* Warna background formulir kontak*/
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+#contactFormContainer h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+#contactFormContainer .form-group-whatsapp {
+    margin-bottom: 15px;
+}
+
+#contactFormContainer label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+}
+
+#contactFormContainer input[type="text"],
+#contactFormContainer input[type="tel"],
+#contactFormContainer textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#contactFormContainer textarea {
+    resize: vertical;
+}
+
+#contactFormContainer button {
+    background-color: #007bff; /* Warna background tombol kirim */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#contactFormContainer button:hover {
+    background-color: #0056b3; /* Warna background tombol kirim saat diklik */
+}
+
+@media (max-width: 600px) {
+    #contactFormContainer .container-whatsapp-form {
+        padding: 20px;
+    }
+    #contactFormContainer h2 {
+        font-size: 1.5em;
+    }
+}
