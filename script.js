@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const targetWhatsApp = '6281367914366'; // Nomor WhatsApp tujuan 
 
             // Ini adalah bagian yang menentukan isi pesan WhatsApp.
-            // Hanya mengambil teks dari kolom 'Pesan Anda'.
+            // Hanya mengambil teks dari kolom 'Isi Pesan'.
             let whatsappMessage = `${message}`;
 
             const encodedMessage = encodeURIComponent(whatsappMessage);
