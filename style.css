@@ -68,6 +68,7 @@
     background-color: #0056b3; /* Warna background tombol kirim saat diklik */
 }
 
+/* CSS Responsif */
 @media (max-width: 600px) {
     #contactFormContainer .container-whatsapp-form {
         padding: 20px;
